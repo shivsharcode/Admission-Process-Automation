@@ -80,9 +80,8 @@ function SignUp({ setShowLogin, setShowSignup }) {
     <div className={styles["wrapper"]}>
       <div className={styles["form-wrapper"]}>
         <form onSubmit={handleSignup}>
-          <a href="https://www.gharparivar.in">
+          
             <img id="login-signup-page-brand-logo-id" src="path/to/logo.png" alt="G" />  {/* Replace with valid logo */}
-          </a>
           <h1>Sign Up</h1>
 
           {/* NAME */}
@@ -197,7 +196,7 @@ function SignUp({ setShowLogin, setShowSignup }) {
           <div className={styles["agree-with-policy-div"]}>
             <label htmlFor="agree-permission" className={styles["custom-checkbox-label"]}>
               <input type="checkbox" className={styles["custom-checkbox"]} id="agree-permission" required />
-              <span className={styles["checkbox-text"]}>I agree with GharParivar</span>
+              <span className={styles["checkbox-text"]}>I agree with ABES </span>
             </label>
             <pre> </pre>
             <a href="/terms" target="_blank" rel="noopener noreferrer">T&C</a><pre>,</pre>
