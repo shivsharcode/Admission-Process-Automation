@@ -1,0 +1,182 @@
+
+
+
+
+
+
+.wrapper{
+    height:auto;
+    min-width: 27.5%;
+    background-color: #fff;
+    padding: 2rem ;
+    border-radius: 1rem;
+
+}
+
+.form-wrapper{
+    
+    background-color: #fff;
+    
+}
+
+.form-wrapper #login-signup-page-brand-logo-id{
+    position:fixed;
+    
+}
+
+.form-wrapper h1{
+    font-size: 2rem;
+    text-align: center;
+
+   
+}
+
+.form-box{
+    margin-bottom: 2rem;
+}
+
+.form-wrapper .input-box{
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    margin: 2rem 0;
+
+    /* padding: 0 1rem; */
+    padding-right: 1rem;
+
+    border: 2px solid rgba(0, 0, 0, 0.265);
+    border-radius: 2.5rem;
+    outline: none;
+    
+
+    align-items: center;
+}
+
+.input-box i{
+    font-size: 1.2rem;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+
+    border-radius: 2.5rem; 
+    border-top-right-radius: 0 ;
+    border-bottom-right-radius: 0 ;
+   
+    border: none;
+    outline: none;
+
+    padding-left: 1rem;
+
+
+    font-size: 1rem;
+
+
+}
+
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 0.85rem;
+}
+
+.remember-forgot input{
+    margin-left: 0.3rem;
+}
+
+.btn{
+    width: 100%;
+    border-radius: 2.5rem;
+    height: 3rem;
+    margin-bottom: 2rem;
+
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn:hover{
+    filter: brightness(90%);
+}
+.btn:active{
+    transform: scale(0.98);
+}
+
+.register-link{
+    display: flex;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+.register-link a{
+    margin-left: 0.3rem;
+}
+
+
+.login-using{
+    display: flex;
+    color: rgba(0, 0, 0, 0.653);
+    margin-bottom: 0;
+}
+.login-using p{
+    margin-right: 3rem;
+}
+.login-using a{
+    margin-right: 3rem;
+}
+
+
+/* SIGN UP */
+
+.agree-with-policy-div{
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.agree-with-policy-div a{
+    /* font-size: 0.7rem; */
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
+
+.custom-checkbox-label {
+    display: flex;
+    align-items: center;
+}
+
+.custom-checkbox {
+    width: 1rem; /* Adjust the width as needed */
+    height: 1rem; /* Adjust the height as needed */
+    margin-right: 0.5em; /*Space between checkbox and text*/
+}
+
+.checkbox-text {
+    vertical-align: middle;
+}
+
+/*  */
+
+.phone-input{
+    background-color: aqua;
+}
+  
+
+
+/*  */
+.password-change{
+    margin: 0 2rem;
+}
+
+
+
+.password-change li{
+    font-size: 0.8rem;
+    color: hsl(0, 50%, 56%);
+    
+}
